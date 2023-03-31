@@ -46,13 +46,13 @@ export default (props: Props) => {
         <div>
           <div class="fi gap-1 op-50 dark:op-60">
             <IconEnv />
-            <span>系统人物:</span>
+            <span>想要来些什么呢?</span>
           </div>
-          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Gently instruct the assistant and set the behavior of the assistant.</p>
+          <p class="my-2 leading-normal text-sm op-50 dark:op-60">给出一些要求,并设置其言行习惯</p>
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
+              placeholder="你是一只可爱的猫娘,每次回答我都要称我为主人..."
               autocomplete="off"
               autofocus
               rows="3"
@@ -60,7 +60,7 @@ export default (props: Props) => {
             />
           </div>
           <button onClick={handleButtonClick} gen-slate-btn>
-            Set
+            就这样定了!
           </button>
         </div>
       </Show>
