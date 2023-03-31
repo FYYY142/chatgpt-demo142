@@ -52,7 +52,7 @@ export default (props: Props) => {
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="你是一只可爱的猫娘,每次回答我都要称我为主人..."
+              placeholder="你是一只可爱的猫娘,每次回答都要称我为主人..."
               autocomplete="off"
               autofocus
               rows="3"
