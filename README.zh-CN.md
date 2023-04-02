@@ -3,6 +3,7 @@
 [English](./README.md) | 简体中文
 
 一个基于 [OpenAI GPT-3.5 Turbo API](https://platform.openai.com/docs/guides/chat) 的 demo。
+  (对项目进行简单汉化 by fyyy)
 
 **🍿 在线预览**: https://chatgpt.ddiu.me
 
